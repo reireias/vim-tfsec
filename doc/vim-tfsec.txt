@@ -1,0 +1,33 @@
+*vim-tfsec*	Run tfsec and push results Quickfix
+
+Version: 0.1
+Author: reireias <reireias at gmail.com>
+License: MIT license
+
+==============================================================================
+CONTENTS					*vim-tfsec-contents*
+
+Usage		|vim-tfsec-usage|
+Interface	|vim-tfsec-interface|
+  Variables	  |vim-tfsec-variables|
+  Commands	  |vim-tfsec-commands|
+
+==============================================================================
+USAGE						*vim-tfsec-usage*
+
+	Run tfsec.
+>
+	:Tfsec
+<
+
+==============================================================================
+INTERFACE					*vim-tfsec-interface*
+
+------------------------------------------------------------------------------
+COMMANDS					*vim-tfsec-commands*
+
+:Tfsec						*:Tfsec*
+		Run tfsec command and push results to Quickfix.
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:
